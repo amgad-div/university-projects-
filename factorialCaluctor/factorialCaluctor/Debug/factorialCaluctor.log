@@ -1,0 +1,31 @@
+﻿Build started 2/27/2022 2:20:06 AM.
+     1>Project "c:\Users\hacko\documents\visual studio 2010\Projects\factorialCaluctor\factorialCaluctor\factorialCaluctor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\factorialCaluctor.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt mtForm.cpp /clr:nostdlib 
+         mtForm.cpp
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(140): error C2065: 'string' : undeclared identifier
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(140): error C2065: 'in' : undeclared identifier
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(141): error C3083: 'convert': the symbol to the left of a '::' must be a type
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(141): error C2039: 'ToInt16' : is not a member of 'System'
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(141): error C2065: 'in' : undeclared identifier
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(141): error C3861: 'ToInt16': identifier not found
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(147): error C2065: 'in' : undeclared identifier
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(147): error C3083: 'converet': the symbol to the left of a '::' must be a type
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(147): error C2039: 'ToString' : is not a member of 'System'
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(147): error C2661: 'System::Object::ToString' : no overloaded function takes 1 arguments
+     1>c:\users\hacko\documents\visual studio 2010\projects\factorialcaluctor\factorialcaluctor\mtForm.h(148): error C2065: 'in' : undeclared identifier
+     1>mtForm.cpp(3): error C3083: 'windows': the symbol to the left of a '::' must be a type
+     1>mtForm.cpp(3): error C2039: 'forms' : is not a member of 'System'
+     1>mtForm.cpp(3): error C2871: 'forms' : a namespace with this name does not exist
+     1>mtForm.cpp(7): error C2653: 'Application' : is not a class or namespace name
+     1>mtForm.cpp(8): error C2589: '}' : illegal token on right side of '::'
+     1>mtForm.cpp(8): error C2143: syntax error : missing ';' before '::'
+     1>Done Building Project "c:\Users\hacko\documents\visual studio 2010\Projects\factorialCaluctor\factorialCaluctor\factorialCaluctor.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.97
